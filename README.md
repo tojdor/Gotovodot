@@ -77,7 +77,7 @@ npm run dev
 ```bash
 cd mobile
 npm install
-npx expo start --tunnel
+npx expo start
 ```
 Отсканируйте появившийся QR-код в приложении **Expo Go** на телефоне (Android / iOS).
 
