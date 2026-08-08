@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E4572E" />
+      <stop offset="100%" stop-color="#C8431C" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <g transform="translate(64, 64) scale(0.75)" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Chef Hat SVG paths -->
+    <path d="M120 380h272a24 24 0 0 0 24-24v-40a24 24 0 0 0-24-24H120a24 24 0 0 0-24 24v40a24 24 0 0 0 24 24z" fill="#FFFFFF" fill-opacity="0.15" />
+    <path d="M136 292C90 270 70 200 110 150c40-50 110-30 146 10 36-40 106-60 146-10 40 50 20 120-26 142" />
+    <path d="M120 420h272" />
+    <!-- Spoon and Fork accents -->
+    <circle cx="256" cy="450" r="12" fill="#FFFFFF" />
+  </g>
+</svg>

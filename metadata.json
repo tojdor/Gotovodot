@@ -1,0 +1,6 @@
+{
+  "name": "Готово. — Умный кулинарный ассистент",
+  "description": "AI-сервис для генерации рецептов по фото холодильника, категориям и тегам с озвучкой и живым видео-сопровождением готовки через Gemini.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Готово. AI Шеф",
+    "slug": "gotovo-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F0F4F8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ilmhona.gotovo",
+      "infoPlist": {
+        "NSCameraUsageDescription": "«Готово.» требуется доступ к камере для съемки содержимого холодильника и распознавания продуктов через Gemini Multimodal AI.",
+        "NSPhotoLibraryUsageDescription": "«Готово.» требуется доступ к галерее для выбора фотографий продуктов.",
+        "NSMicrophoneUsageDescription": "Требуется доступ к микрофону для голосового управления и диктовки списка ингредиентов."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E4572E"
+      },
+      "package": "com.ilmhona.gotovo",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "gotovoapp",
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
